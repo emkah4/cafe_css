@@ -1,0 +1,30 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+
+p {
+    color: magenta;
+    font-size: 5rem;
+    font-family: monospace;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+    div {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: black;
+    }
+}
+}
